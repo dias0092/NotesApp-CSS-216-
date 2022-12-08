@@ -11,6 +11,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import kz.sdu190103159.notesappcss_216.ui.theme.NotesAppCSS216Theme
+import kz.sdu190103159.notesappcss_216.navigation.NoteNavHst
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,22 +23,19 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-                    Greeting("Android")
+                    NoteNavHst()
                 }
             }
         }
     }
 }
 
-@Composable
-fun Greeting(name: String) {
-    Text(text = "Hello $name!")
-}
+
 
 @Preview(showBackground = true)
 @Composable
 fun DefaultPreview() {
     NotesAppCSS216Theme {
-        Greeting("Android")
+
     }
 }

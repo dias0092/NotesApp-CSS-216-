@@ -1,4 +1,8 @@
 package kz.sdu190103159.notesappcss_216.scrnss
 
-class Add {
+import androidx.compose.runtime.Composable
+import androidx.navigation.NavHostController
+
+@Composable
+fun Add(navController: NavHostController) {
 }
