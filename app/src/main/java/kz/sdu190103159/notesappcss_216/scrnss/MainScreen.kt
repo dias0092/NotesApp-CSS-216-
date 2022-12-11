@@ -72,6 +72,6 @@ fun NoteItem(title: String , subtitle: String , navController: NavHostController
 @Composable
 fun prevMainScreen(){
     NotesAppCSS216Theme {
-        StartScreen(navController = rememberNavController())
+        MainScreen(navController = rememberNavController())
     }
 }
