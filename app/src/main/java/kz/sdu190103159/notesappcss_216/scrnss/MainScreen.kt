@@ -34,7 +34,7 @@ fun MainScreen(navController: NavHostController) {
         }
     ){
         Column(){
-            NoteItem(title = "Zhuzha" , subtitle = "Zhuzha molodec" , navController = navController)
+            NoteItem(title = "Oreo chert" , subtitle = "Zhuzha molodec" , navController = navController)
             NoteItem(title = "Zhuzha 0" , subtitle = "Zhuzha molodec 0" , navController = navController)
             NoteItem(title = "Zhuzha -1" , subtitle = "Zhuzha molodec -1 " , navController = navController)
             NoteItem(title = "Zhuzha 1" , subtitle = "Zhuzha molodec 1" , navController = navController)
